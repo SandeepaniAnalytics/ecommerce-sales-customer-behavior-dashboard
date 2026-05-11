@@ -90,21 +90,23 @@ Istanbul contributed the largest share of revenue
 Higher customer engagement showed positive correlation with revenue
 
 ## 🎨 Dashboard Design Highlights
-Custom dashboard UI design
-Consistent color palette
-Interactive navigation icons
-Business-focused visual storytelling
-Clean and modern dashboard layout
+- Custom dashboard UI design
+- Consistent color palette
+- Interactive navigation icons
+- Business-focused visual storytelling
+- Clean and modern dashboard layout
+
+## 📷 Dashboard Preview
+
 
 ## 🚀 Skills Demonstrated
-Business Intelligence
-Dashboard Design
-Data Visualization
-Data Analysis
-DAX Calculations
-Interactive Reporting
-Analytical Storytelling
+- Business Intelligence
+- Dashboard Design
+- Data Visualization
+- Data Analysis
+- DAX Calculations
+- Analytical Storytelling
 
 ### 📌 Author
-Sandeepani Rathnayake
-Power BI & Data Analytics Enthusiast
+Sandeepani Rathnayake<br>
+-Power BI & Data Analytics Enthusiast-
