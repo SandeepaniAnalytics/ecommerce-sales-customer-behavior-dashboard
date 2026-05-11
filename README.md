@@ -97,7 +97,7 @@ Higher customer engagement showed positive correlation with revenue
 - Clean and modern dashboard layout
 
 ## 📷 Dashboard Preview
-
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
 
 ## 🚀 Skills Demonstrated
 - Business Intelligence
