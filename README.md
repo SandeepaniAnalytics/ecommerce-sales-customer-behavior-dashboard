@@ -1,1 +1,110 @@
-# ecommerce-sales-customer-behavior-dashboard
+# E-Commerce Sales & Customer Behavior Dashboard
+
+## 📌 Project Overview
+
+An interactive Power BI dashboard designed to analyze e-commerce sales performance and customer behavior. </br>
+The dashboard provides insights into revenue trends, customer engagement, product category performance, payment preferences, and regional sales analysis using dynamic and interactive visualizations.
+</br>
+</br>
+This project was created as a portfolio project to demonstrate business intelligence, dashboard design, and data storytelling skills using Power BI.
+
+## 🎯 Purpose of the Dashboard
+
+The purpose of this dashboard is to help business users and decision-makers:
+
+- Monitor sales performance and revenue trends</br>
+- Analyze customer purchasing behavior</br>
+- Identify high-performing product categories and cities</br>
+- Understand device and payment preferences</br>
+- Track customer engagement and retention metrics</br>
+- Explore data interactively using filters and field parameters</br>
+
+## 🛠️ Tech Stack
+- Power BI
+- DAX 
+- Power Query
+- Data Modeling
+- Interactive Data Visualization
+
+## 📂 Data Source
+
+Dataset: E-Commerce Customer Behavior & Sales Analysis - TR
+
+Source:
+Kaggle Dataset
+
+Dataset includes:
+
+17,049 e-commerce transactions
+Customer demographics
+Product information
+Sales and revenue metrics
+Customer engagement metrics
+Payment and delivery information
+
+Main columns used:
+
+Order_ID
+Customer_ID
+Date
+Product_Category
+Total_Amount
+Quantity
+Device_Type
+Payment_Method
+City
+Session_Duration_Minutes
+Customer_Rating
+Is_Returning_Customer
+✨ Dashboard Features & Highlights
+
+## 📊 KPI Cards
+- Total Sales
+- Total Orders
+- Units Sold
+- Average Order Value
+- Returning Customer Percentage
+- Average Customer Rating
+
+## 📈 Interactive Visualizations
+- Monthly Performance Trend
+- Product Category Performance
+- City Performance Overview
+- Customer Engagement vs Revenue Analysis
+- Revenue by Device Type
+- Revenue by Payment Method
+- Average Discount by Product Category
+
+## 🎛️ Interactive Dashboard Features
+- Dynamic Field Parameters
+- Interactive Slicers
+- Clear Filter Navigation Buttons
+- Tooltip Insights
+- Cross-filtering between visuals
+
+## 🔍 Key Business Insights
+Mobile devices generated the highest revenue contribution
+Credit cards were the most preferred payment method
+Electronics category achieved the highest sales performance
+Istanbul contributed the largest share of revenue
+Higher customer engagement showed positive correlation with revenue
+
+## 🎨 Dashboard Design Highlights
+Custom dashboard UI design
+Consistent color palette
+Interactive navigation icons
+Business-focused visual storytelling
+Clean and modern dashboard layout
+
+## 🚀 Skills Demonstrated
+Business Intelligence
+Dashboard Design
+Data Visualization
+Data Analysis
+DAX Calculations
+Interactive Reporting
+Analytical Storytelling
+
+### 📌 Author
+Sandeepani Rathnayake
+Power BI & Data Analytics Enthusiast
