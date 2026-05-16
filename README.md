@@ -28,7 +28,7 @@ The purpose of this dashboard is to help business users and decision-makers:
 
 ## Data Source
 
-Dataset: E-Commerce Customer Behavior & Sales Analysis - TR
+Dataset: E-Commerce Customer Behavior & Sales Analysis 
 
 Source:
 Kaggle Dataset
