@@ -5,8 +5,6 @@
 An interactive Power BI dashboard designed to analyze e-commerce sales performance and customer behavior. </br>
 The dashboard provides insights into revenue trends, customer engagement, product category performance, payment preferences, and regional sales analysis using dynamic and interactive visualizations.
 </br>
-</br>
-This project was created as a portfolio project to demonstrate business intelligence, dashboard design, and data storytelling skills using Power BI.
 
 ## Purpose of the Dashboard
 
@@ -35,11 +33,11 @@ Kaggle Dataset
 
 Dataset includes:
 
-17,049 e-commerce transactions
-Customer demographics
-Product information
-Sales and revenue metrics
-Customer engagement metrics
+17,049 e-commerce transactions <br>
+Customer demographics <br>
+Product information <br>
+Sales and revenue metrics <br>
+Customer engagement metrics <br>
 Payment and delivery information
 
 ## Dashboard Features & Highlights
@@ -56,10 +54,10 @@ Payment and delivery information
 - Monthly Performance Trend
 - Product Category Performance
 - City Performance Overview
-- Customer Engagement vs Revenue Analysis
 - Revenue by Device Type
 - Revenue by Payment Method
-- Average Discount by Product Category
+- Monthly Category Sales Matrix
+- Customer Behavior Analysis
 
 ### Interactive Dashboard Features
 - Dynamic Field Parameters
@@ -69,11 +67,11 @@ Payment and delivery information
 - Cross-filtering between visuals
 
 ### Key Business Insights
-Mobile devices generated the highest revenue contribution<br>
-Credit cards were the most preferred payment method<br>
-Electronics category achieved the highest sales performance<br>
-Istanbul contributed the largest share of revenue<br>
-Higher customer engagement showed positive correlation with revenue
+Mobile devices generated the highest revenue contribution <br>
+Credit cards were the most preferred payment method <br>
+Electronics category achieved the highest sales performance <br>
+Istanbul contributed the largest share of revenue <br>
+Customer engagement showed positive correlation with sales performance
 
 ### Dashboard Design Highlights
 - Custom dashboard UI design
