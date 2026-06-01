@@ -1,96 +1,183 @@
-# E-Commerce Sales & Customer Behavior Dashboard
+# 🛍️ E-Commerce Sales & Customer Behavior Dashboard
+### Power BI Dashboard | E-Commerce Sales Analytics | Turkey
 
-## Project Overview
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
-An interactive Power BI dashboard designed to analyze e-commerce sales performance and customer behavior. </br>
-The dashboard provides insights into revenue trends, customer engagement, product category performance, payment preferences, and regional sales analysis using dynamic and interactive visualizations.
-</br>
+---
 
-## Purpose of the Dashboard
+## 📋 Project Overview
+
+An **interactive single-page Power BI dashboard** built to analyze **17K+ transactions** from a Turkish online retail platform spanning **January 2023 to March 2024**. The dashboard provides end-to-end visibility into sales performance, customer behavior, delivery operations, and product category trends — enabling data-driven decisions for marketing, operations, and management teams.
+
+The dashboard answers one core business question:
+
+> **Why did revenue drop 45% after March 2023 — and where is the recovery opportunity?**
+
+---
+
+## 🎯 Purpose of the Dashboard
 
 The purpose of this dashboard is to help business users and decision-makers:
 
-- Monitor sales performance and revenue trends</br>
-- Analyze customer purchasing behavior</br>
-- Identify high-performing product categories and cities</br>
-- Understand device and payment preferences</br>
-- Track customer engagement and retention metrics</br>
-- Explore data interactively using filters and field parameters</br>
+- 💰 Monitor total sales, orders, and revenue trends over time
+- 📦 Identify top-performing and underperforming product categories
+- 🚚 Understand how delivery performance impacts customer satisfaction
+- 📱 Analyse device and payment method behavior to optimize conversion
+- 👥 Segment customers by age group to prioritize retention investment
+- 🌍 Compare revenue performance across 10 major Turkish cities
+- 📈 Track MoM growth indicators across sales, orders, and units sold
 
-## Tech Stack
-- Power BI
-- DAX 
-- Power Query
-- Data Modeling
-- Interactive Data Visualization
+---
 
-## Data Source
+## 🗃️ Dataset
 
-Dataset: E-Commerce Customer Behavior & Sales Analysis 
+| Detail | Value |
+|---|---|
+| **Source** | Kaggle |
+| **Total Transactions** | 17K+ |
+| **Unique Customers** | 5,000 |
+| **Product Categories** | 8 |
+| **Cities** | 10 major Turkish cities |
+| **Date Range** | January 2023 – March 2024 |
+| **Source Format** | CSV |
+| **Total Columns** | 18 |
 
-Source:
-Kaggle Dataset
+### Product Categories
+Electronics · Fashion · Home & Garden · Sports · Books · Beauty · Toys · Food
 
-Dataset includes:
+### Cities Covered
+Istanbul · Ankara · Izmir · Bursa · Antalya · Gaziantep · Adana · Konya · Kayseri · Eskisehir
 
-17,049 e-commerce transactions <br>
-Customer demographics <br>
-Product information <br>
-Sales and revenue metrics <br>
-Customer engagement metrics <br>
-Payment and delivery information
+### Key Dataset Columns
 
-## Dashboard Features & Highlights
+| Column | Description |
+|---|---|
+| `Order_ID` | Unique transaction identifier (ORD_XXXXXX format) |
+| `Customer_ID` | Unique customer identifier (CUST_XXXXX format) |
+| `Date` | Transaction date (Jan 2023 – Mar 2024) |
+| `Age` | Customer age in years (18–75) |
+| `Gender` | Male / Female / Other |
+| `City` | Customer city (10 major Turkish cities) |
+| `Product_Category` | 8 product categories |
+| `Unit_Price` | Price per unit in Turkish Lira (TRY) |
+| `Quantity` | Units purchased per transaction (1–5) |
+| `Discount_Amount` | Discount applied to order in TRY |
+| `Total_Amount` | Final amount paid after discount |
+| `Payment_Method` | Credit Card, Debit Card, Digital Wallet, Bank Transfer, Cash on Delivery |
+| `Device_Type` | Mobile, Desktop, Tablet |
+| `Session_Duration_Minutes` | Time spent on website per session (1–120 min) |
+| `Pages_Viewed` | Pages viewed per session (1–50) |
+| `Is_Returning_Customer` | True / False |
+| `Delivery_Time_Days` | Delivery duration in days (1–30) |
+| `Customer_Rating` | Customer satisfaction rating (1–5 stars) |
 
-### KPI Cards
+---
+
+## 📊 Dashboard Page
+
+### Page 1 — Sales & Customer Behavior Overview
+Single-page end-to-end snapshot covering sales performance, customer behavior, and delivery operations.
+
+**KPI Cards**
 - Total Sales
 - Total Orders
 - Units Sold
-- Average Order Value
-- Returning Customer Percentage
-- Average Customer Rating
+- Avg Order Value
+- Returning Rate
+- Average Rating
 
-### Interactive Visualizations
-- Monthly Performance Trend
-- Product Category Performance
-- City Performance Overview
-- Revenue by Device Type
-- Revenue by Payment Method
-- Monthly Category Sales Matrix
-- Customer Behavior Analysis
+**Visuals**
 
-### Interactive Dashboard Features
-- Dynamic Field Parameters
-- Interactive Slicers
-- Clear Filter Navigation Buttons
-- Tooltip Insights
-- Cross-filtering between visuals
+| Visual | Type |
+|---|---|
+| Monthly Performance Trend | Line chart (field parameter toggle) |
+| Product Category Performance | Horizontal bar chart |
+| City Performance Overview | Treemap |
+| Delivery Days vs Customer Rating | Scatter plot |
+| Orders by Device Type | Donut chart |
+| Customer Engagement by Device | Clustered bar chart |
+| Orders by Payment Method | Bar chart |
+| Revenue by Age Group | Bar chart |
 
-### Key Business Insights
-Mobile devices generated the highest revenue contribution <br>
-Credit cards were the most preferred payment method <br>
-Electronics category achieved the highest sales performance <br>
-Istanbul contributed the largest share of revenue <br>
-Customer engagement showed positive correlation with sales performance
+**Business Insights**
+- Electronics drives 48% of total revenue — single category concentration is a major risk if supply or pricing is disrupted
+- Revenue dropped 45% in April 2023 from ₺2.8M to ₺1.5M — Q1 seasonality pattern needs investigation
+- Istanbul accounts for 26% of all revenue — geographic over-reliance with Bursa and Antalya showing untapped growth potential
+- Mobile = 56% of orders but lower AOV than desktop — mobile checkout gap is the largest single revenue uplift opportunity
+- Delivery beyond 15 days correlates with ratings below 3.5★ — logistics directly impacts customer retention
+- 26–35 and 36–45 age groups are the highest spending segments — priority targets for retention campaigns
 
-### Dashboard Design Highlights
-- Custom dashboard UI design
-- Consistent color palette
-- Interactive navigation icons
-- Business-focused visual storytelling
-- Clean and modern dashboard layout
+---
 
-### Dashboard Preview
-![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
+## 💡 Key Business Insights
 
-## Skills Demonstrated
-- Business Intelligence
-- Dashboard Design
-- Data Visualization
-- Data Analysis
-- DAX Calculations
-- Analytical Storytelling
+> 📉 **Revenue dropped 45% in April 2023** — from ₺2.8M to ₺1.5M — Q1 seasonality or campaign-driven; root cause requires investigation
 
-<b>Author</b> <br>
-Sandeepani Rathnayake<br>
--Power BI & Data Analytics Enthusiast-
+> ⚡ **Electronics drives 48% of total revenue** — single category concentration is a major business risk if supply or pricing is disrupted
+
+> 🚚 **Delivery beyond 15 days correlates with ratings below 3.5★** — logistics performance directly impacts customer satisfaction and retention
+
+> 🏙️ **Istanbul accounts for 26% of all revenue** — geographic over-reliance; Bursa and Antalya show untapped growth potential
+
+> 📱 **Mobile = 56% of orders but lower AOV than desktop** — mobile checkout experience is the largest single revenue uplift opportunity
+
+> 👥 **26–35 and 36–45 age groups are the highest spending segments** — priority targets for loyalty and retention campaigns
+
+> 📈 **December shows MoM recovery** — Q4 seasonal uplift; plan campaigns to accelerate this trend year-on-year
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| **Power BI Desktop** | Dashboard development and visualization |
+| **DAX** | Measures, KPI calculations and calculated columns |
+| **Power Query** | Data transformation and cleaning |
+| **Data Modeling** | Date table relationship and schema design |
+| **CSV** | Source data format |
+| **GitHub** | Version control and project sharing |
+
+---
+
+## 📁 Repository Structure
+
+```
+📦 ecommerce-sales-customer-behavior-dashboard
+ ┣ 📂 data
+ ┃ ┗ 📄 ecommerce_customer_behavior_dataset.csv
+ ┣ 📂 screenshots
+ ┃ ┗ 🖼️ dashboard_overview.png
+ ┣ 📄 ECommerce_Dashboard.pbix
+ ┗ 📄 README.md
+```
+
+---
+
+## 🏅 Skills Demonstrated
+
+| Skill | Description |
+|---|---|
+| **Business Intelligence** | Translating raw transaction data into actionable business insights |
+| **Dashboard Design** | Single-page structured layout with consistent dark navy theme |
+| **DAX Calculations** | 15+ custom measures for KPIs, MoM growth, and customer segmentation |
+| **Time Intelligence** | MoM growth indicators for sales, orders, and units sold |
+| **Calculated Columns** | Age group, delivery zone, discount flag, and session group classification |
+| **Field Parameters** | Single toggle dynamically controlling 3 linked visuals simultaneously |
+| **Power Query** | Data type fixing, column renaming, and transformation |
+| **Scatter Plot Analysis** | Delivery time vs customer rating correlation with trend line |
+| **Conditional Formatting** | Color-coded MoM indicators and delivery zone colors |
+| **Analytical Storytelling** | Business problem framed → insights found → recommendations delivered |
+
+---
+
+## 👤 Author
+
+**Sandeepani Rathnayake**
+*Power BI & Data Analytics Enthusiast*
+
+- GitHub: [@SandeepaniAnalytics](https://github.com/SandeepaniAnalytics)
+- LinkedIn: [Sandeepani Rathnayake](https://linkedin.com/in/sandeepani-rathnayake)
