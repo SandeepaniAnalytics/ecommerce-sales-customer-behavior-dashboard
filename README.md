@@ -10,7 +10,7 @@
 
 ## 📋 Project Overview
 
-An **interactive single-page Power BI dashboard** built to analyze **17K+ transactions** from a online retail platform spanning **January 2023 to March 2024**. The dashboard provides end-to-end visibility into sales performance, customer behavior, delivery operations, and product category trends enabling data-driven decisions for marketing, operations, and management teams.
+An **interactive Power BI dashboard** built to analyze **17K+ transactions** from a online retail platform spanning **January 2023 to March 2024**. The dashboard provides end-to-end visibility into sales performance, customer behavior, delivery operations, and product category trends enabling data-driven decisions for marketing, operations, and management teams.
 
 ---
 
