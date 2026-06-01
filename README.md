@@ -10,7 +10,7 @@
 
 ## 📋 Project Overview
 
-An **interactive single-page Power BI dashboard** built to analyze **17K+ transactions** from a Turkish online retail platform spanning **January 2023 to March 2024**. The dashboard provides end-to-end visibility into sales performance, customer behavior, delivery operations, and product category trends enabling data-driven decisions for marketing, operations, and management teams.
+An **interactive single-page Power BI dashboard** built to analyze **17K+ transactions** from a online retail platform spanning **January 2023 to March 2024**. The dashboard provides end-to-end visibility into sales performance, customer behavior, delivery operations, and product category trends enabling data-driven decisions for marketing, operations, and management teams.
 
 ---
 
@@ -58,9 +58,9 @@ Istanbul | Ankara | Izmir | Bursa | Antalya | Gaziantep | Adana | Konya | Kayser
 | `Gender` | Male / Female / Other |
 | `City` | Customer city (10 major Turkish cities) |
 | `Product_Category` | 8 product categories |
-| `Unit_Price` | Price per unit in Turkish Lira (TRY) |
+| `Unit_Price` | Price per unit |
 | `Quantity` | Units purchased per transaction (1–5) |
-| `Discount_Amount` | Discount applied to order in TRY |
+| `Discount_Amount` | Discount applied to order |
 | `Total_Amount` | Final amount paid after discount |
 | `Payment_Method` | Credit Card, Debit Card, Digital Wallet, Bank Transfer, Cash on Delivery |
 | `Device_Type` | Mobile, Desktop, Tablet |
@@ -102,19 +102,19 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 
 ## 💡 Key Business Insights
 
-> 📉 **Revenue dropped 45% in April 2023** — from ₺2.8M to ₺1.5M — Q1 seasonality or campaign-driven; root cause requires investigation
+> 📉 **Revenue dropped 45% in April 2023** = from $2.8M to $1.5M - Q1 seasonality or campaign-driven; root cause requires investigation
 
-> ⚡ **Electronics drives 48% of total revenue** — single category concentration is a major business risk if supply or pricing is disrupted
+> ⚡ **Electronics drives 48% of total revenue** - single category concentration is a major business risk if supply or pricing is disrupted
 
-> 🚚 **Delivery beyond 15 days correlates with ratings below 3.5★** — logistics performance directly impacts customer satisfaction and retention
+> 🚚 **Delivery beyond 15 days correlates with ratings below 3.5★** - logistics performance directly impacts customer satisfaction and retention
 
-> 🏙️ **Istanbul accounts for 26% of all revenue** — geographic over-reliance; Bursa and Antalya show untapped growth potential
+> 🏙️ **Istanbul accounts for 26% of all revenue** = geographic over-reliance; Bursa and Antalya show untapped growth potential
 
-> 📱 **Mobile = 56% of orders but lower AOV than desktop** — mobile checkout experience is the largest single revenue uplift opportunity
+> 📱 **Mobile = 56% of orders but lower AOV than desktop** - mobile checkout experience is the largest single revenue uplift opportunity
 
-> 👥 **26–35 and 36–45 age groups are the highest spending segments** — priority targets for loyalty and retention campaigns
+> 👥 **26–35 and 36–45 age groups are the highest spending segments** = priority targets for loyalty and retention campaigns
 
-> 📈 **December shows MoM recovery** — Q4 seasonal uplift; plan campaigns to accelerate this trend year-on-year
+> 📈 **December shows MoM recovery** - Q4 seasonal uplift; plan campaigns to accelerate this trend year-on-year
 
 ---
 
