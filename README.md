@@ -4,17 +4,11 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Power Query](https://img.shields.io/badge/Power%20Query-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-
 ---
 
 ## 📋 Project Overview
 
-An **interactive single-page Power BI dashboard** built to analyze **17K+ transactions** from a Turkish online retail platform spanning **January 2023 to March 2024**. The dashboard provides end-to-end visibility into sales performance, customer behavior, delivery operations, and product category trends — enabling data-driven decisions for marketing, operations, and management teams.
-
-The dashboard answers one core business question:
-
-> **Why did revenue drop 45% after March 2023 — and where is the recovery opportunity?**
+An **interactive single-page Power BI dashboard** built to analyze **17K+ transactions** from a Turkish online retail platform spanning **January 2023 to March 2024**. The dashboard provides end-to-end visibility into sales performance, customer behavior, delivery operations, and product category trends enabling data-driven decisions for marketing, operations, and management teams.
 
 ---
 
@@ -76,9 +70,7 @@ Istanbul | Ankara | Izmir | Bursa | Antalya | Gaziantep | Adana | Konya | Kayser
 
 ---
 
-## 📊 Dashboard Page
-
-### Page 1 — Sales & Customer Behavior Overview
+## 📊 Dashboard
 Single-page end-to-end snapshot covering sales performance, customer behavior, and delivery operations.
 
 **KPI Cards**
@@ -101,6 +93,7 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 | Customer Engagement by Device | Clustered bar chart |
 | Orders by Payment Method | Bar chart |
 | Revenue by Age Group | Bar chart |
+
 
 ---
 
