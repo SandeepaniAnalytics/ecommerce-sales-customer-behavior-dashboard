@@ -4,6 +4,8 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Power Query](https://img.shields.io/badge/Power%20Query-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+
 ---
 
 ## 📋 Project Overview
@@ -94,6 +96,7 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 | Orders by Payment Method | Bar chart |
 | Revenue by Age Group | Bar chart |
 
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
 
 ---
 
