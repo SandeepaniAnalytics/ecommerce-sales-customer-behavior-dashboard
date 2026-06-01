@@ -1,5 +1,5 @@
 # 🛍️ E-Commerce Sales & Customer Behavior Dashboard
-### Power BI Dashboard | E-Commerce Sales Analytics | Turkey
+### Power BI Dashboard | E-Commerce Sales Analytics 
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
@@ -46,10 +46,10 @@ The purpose of this dashboard is to help business users and decision-makers:
 | **Total Columns** | 18 |
 
 ### Product Categories
-Electronics · Fashion · Home & Garden · Sports · Books · Beauty · Toys · Food
+Electronics | Fashion | Home & Garden | Sports | Books | Beauty | Toys | Food
 
 ### Cities Covered
-Istanbul · Ankara · Izmir · Bursa · Antalya · Gaziantep · Adana · Konya · Kayseri · Eskisehir
+Istanbul | Ankara | Izmir | Bursa | Antalya | Gaziantep | Adana | Konya | Kayseri | Eskisehir
 
 ### Key Dataset Columns
 
@@ -102,14 +102,6 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 | Orders by Payment Method | Bar chart |
 | Revenue by Age Group | Bar chart |
 
-**Business Insights**
-- Electronics drives 48% of total revenue — single category concentration is a major risk if supply or pricing is disrupted
-- Revenue dropped 45% in April 2023 from ₺2.8M to ₺1.5M — Q1 seasonality pattern needs investigation
-- Istanbul accounts for 26% of all revenue — geographic over-reliance with Bursa and Antalya showing untapped growth potential
-- Mobile = 56% of orders but lower AOV than desktop — mobile checkout gap is the largest single revenue uplift opportunity
-- Delivery beyond 15 days correlates with ratings below 3.5★ — logistics directly impacts customer retention
-- 26–35 and 36–45 age groups are the highest spending segments — priority targets for retention campaigns
-
 ---
 
 ## 💡 Key Business Insights
@@ -149,8 +141,7 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 📦 ecommerce-sales-customer-behavior-dashboard
  ┣ 📂 data
  ┃ ┗ 📄 ecommerce_customer_behavior_dataset.csv
- ┣ 📂 screenshots
- ┃ ┗ 🖼️ dashboard_overview.png
+ ┣ 🖼️ dashboard_overview.png
  ┣ 📄 ECommerce_Dashboard.pbix
  ┗ 📄 README.md
 ```
@@ -176,8 +167,6 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 
 ## 👤 Author
 
-**Sandeepani Rathnayake**
+**Sandeepani Rathnayake** <br>
 *Power BI & Data Analytics Enthusiast*
 
-- GitHub: [@SandeepaniAnalytics](https://github.com/SandeepaniAnalytics)
-- LinkedIn: [Sandeepani Rathnayake](https://linkedin.com/in/sandeepani-rathnayake)
