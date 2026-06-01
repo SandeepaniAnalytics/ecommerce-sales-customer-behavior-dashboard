@@ -23,7 +23,7 @@ The purpose of this dashboard is to help business users and decision-makers:
 - 🚚 Understand how delivery performance impacts customer satisfaction
 - 📱 Analyse device and payment method behavior to optimize conversion
 - 👥 Segment customers by age group to prioritize retention investment
-- 🌍 Compare revenue performance across 10 major Turkish cities
+- 🌍 Compare revenue performance across 10 cities
 - 📈 Track MoM growth indicators across sales, orders, and units sold
 
 ---
@@ -36,23 +36,17 @@ The purpose of this dashboard is to help business users and decision-makers:
 | **Total Transactions** | 17K+ |
 | **Unique Customers** | 5,000 |
 | **Product Categories** | 8 |
-| **Cities** | 10 major Turkish cities |
+| **Cities** | 10 cities |
 | **Date Range** | January 2023 – March 2024 |
 | **Source Format** | CSV |
 | **Total Columns** | 18 |
-
-### Product Categories
-Electronics | Fashion | Home & Garden | Sports | Books | Beauty | Toys | Food
-
-### Cities Covered
-Istanbul | Ankara | Izmir | Bursa | Antalya | Gaziantep | Adana | Konya | Kayseri | Eskisehir
 
 ### Key Dataset Columns
 
 | Column | Description |
 |---|---|
-| `Order_ID` | Unique transaction identifier (ORD_XXXXXX format) |
-| `Customer_ID` | Unique customer identifier (CUST_XXXXX format) |
+| `Order_ID` | Unique transaction identifier |
+| `Customer_ID` | Unique customer identifier |
 | `Date` | Transaction date (Jan 2023 – Mar 2024) |
 | `Age` | Customer age in years (18–75) |
 | `Gender` | Male / Female / Other |
@@ -87,7 +81,7 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 
 | Visual | Type |
 |---|---|
-| Monthly Performance Trend | Line chart (field parameter toggle) |
+| Monthly Performance Trend | Line chart |
 | Product Category Performance | Horizontal bar chart |
 | City Performance Overview | Treemap |
 | Delivery Days vs Customer Rating | Scatter plot |
@@ -102,19 +96,19 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 
 ## 💡 Key Business Insights
 
-> 📉 **Revenue dropped 45% in April 2023** = from $2.8M to $1.5M - Q1 seasonality or campaign-driven; root cause requires investigation
+📉 **Revenue dropped 45% in April 2023** = from $2.8M to $1.5M - Q1 seasonality or campaign-driven; root cause requires investigation
 
-> ⚡ **Electronics drives 48% of total revenue** - single category concentration is a major business risk if supply or pricing is disrupted
+⚡ **Electronics drives 48% of total revenue** - single category concentration is a major business risk if supply or pricing is disrupted
 
-> 🚚 **Delivery beyond 15 days correlates with ratings below 3.5★** - logistics performance directly impacts customer satisfaction and retention
+🚚 **Delivery beyond 15 days correlates with ratings below 3.5★** - logistics performance directly impacts customer satisfaction and retention
 
-> 🏙️ **Istanbul accounts for 26% of all revenue** = geographic over-reliance; Bursa and Antalya show untapped growth potential
+🏙️ **Istanbul accounts for 26% of all revenue** = geographic over-reliance; Bursa and Antalya show untapped growth potential
 
-> 📱 **Mobile = 56% of orders but lower AOV than desktop** - mobile checkout experience is the largest single revenue uplift opportunity
+📱 **Mobile = 56% of orders but lower AOV than desktop** - mobile checkout experience is the largest single revenue uplift opportunity
 
-> 👥 **26–35 and 36–45 age groups are the highest spending segments** = priority targets for loyalty and retention campaigns
+👥 **26–35 and 36–45 age groups are the highest spending segments** = priority targets for loyalty and retention campaigns
 
-> 📈 **December shows MoM recovery** - Q4 seasonal uplift; plan campaigns to accelerate this trend year-on-year
+📈 **December shows MoM recovery** - Q4 seasonal uplift; plan campaigns to accelerate this trend year-on-year
 
 ---
 
@@ -149,7 +143,7 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 | Skill | Description |
 |---|---|
 | **Business Intelligence** | Translating raw transaction data into actionable business insights |
-| **Dashboard Design** | Single-page structured layout with consistent dark navy theme |
+| **Dashboard Design** | Single-page structured layout with consistent theme |
 | **DAX Calculations** | 15+ custom measures for KPIs, MoM growth, and customer segmentation |
 | **Time Intelligence** | MoM growth indicators for sales, orders, and units sold |
 | **Calculated Columns** | Age group, delivery zone, discount flag, and session group classification |
@@ -157,7 +151,6 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 | **Power Query** | Data type fixing, column renaming, and transformation |
 | **Scatter Plot Analysis** | Delivery time vs customer rating correlation with trend line |
 | **Conditional Formatting** | Color-coded MoM indicators and delivery zone colors |
-| **Analytical Storytelling** | Business problem framed → insights found → recommendations delivered |
 
 ---
 
