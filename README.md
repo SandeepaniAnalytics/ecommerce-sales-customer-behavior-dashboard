@@ -67,7 +67,6 @@ The purpose of this dashboard is to help business users and decision-makers:
 ---
 
 ## 📊 Dashboard
-Single-page end-to-end snapshot covering sales performance, customer behavior, and delivery operations.
 
 **KPI Cards**
 - Total Sales
