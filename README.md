@@ -90,7 +90,7 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 | Orders by Payment Method | Bar chart |
 | Revenue by Age Group | Bar chart |
 
-![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard_preview.png)
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
 
 ---
 
