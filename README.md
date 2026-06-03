@@ -96,8 +96,6 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 
 ## 💡 Key Business Insights
 
-📉 **Revenue dropped 45% in April 2023** = from $2.8M to $1.5M - Q1 seasonality or campaign-driven; root cause requires investigation
-
 ⚡ **Electronics drives 48% of total revenue** - single category concentration is a major business risk if supply or pricing is disrupted
 
 🚚 **Delivery beyond 15 days correlates with ratings below 3.5★** - logistics performance directly impacts customer satisfaction and retention
@@ -121,7 +119,6 @@ Single-page end-to-end snapshot covering sales performance, customer behavior, a
 | **Power Query** | Data transformation and cleaning |
 | **Data Modeling** | Date table relationship and schema design |
 | **CSV** | Source data format |
-| **GitHub** | Version control and project sharing |
 
 ---
 
