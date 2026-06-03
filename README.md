@@ -95,6 +95,8 @@ The purpose of this dashboard is to help business users and decision-makers:
 
 ## 💡 Key Business Insights
 
+📈 **Strong sales growth during 2023**, followed by a decline after December, suggesting seasonal purchasing behavior
+
 ⚡ **Electronics drives 48% of total revenue** - single category concentration is a major business risk if supply or pricing is disrupted
 
 🚚 **Delivery beyond 15 days correlates with ratings below 3.5★** - logistics performance directly impacts customer satisfaction and retention
