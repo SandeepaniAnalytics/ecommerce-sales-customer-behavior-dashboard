@@ -69,7 +69,7 @@ The purpose of this dashboard is to help business users and decision-makers:
 ## 📊 Dashboard
 
 
-![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/screenshots/page1_sales_overview.png)
 
 ---
 
