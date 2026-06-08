@@ -68,46 +68,10 @@ The purpose of this dashboard is to help business users and decision-makers:
 
 ## 📊 Dashboard
 
-**KPI Cards**
-- Total Sales
-- Total Orders
-- Units Sold
-- Avg Order Value
-- Returning Rate
-- Average Rating
-
-**Visuals**
-
-| Visual | Type |
-|---|---|
-| Monthly Performance Trend | Line chart |
-| Product Category Performance | Horizontal bar chart |
-| City Performance Overview | Treemap |
-| Delivery Days vs Customer Rating | Scatter plot |
-| Orders by Device Type | Donut chart |
-| Customer Engagement by Device | Clustered bar chart |
-| Orders by Payment Method | Bar chart |
-| Revenue by Age Group | Bar chart |
 
 ![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
 
 ---
-
-## 💡 Key Business Insights
-
-📈 **Strong sales growth during 2023**, followed by a decline after December, suggesting seasonal purchasing behavior
-
-⚡ **Electronics drives 48% of total revenue** - single category concentration is a major business risk if supply or pricing is disrupted
-
-🚚 **Delivery beyond 15 days correlates with ratings below 3.5★** - logistics performance directly impacts customer satisfaction and retention
-
-🏙️ **Istanbul accounts for 26% of all revenue** = geographic over-reliance; Bursa and Antalya show untapped growth potential
-
-📱 **Mobile = 56% of orders but lower AOV than desktop** - mobile checkout experience is the largest single revenue uplift opportunity
-
-👥 **26–35 and 36–45 age groups are the highest spending segments** = priority targets for loyalty and retention campaigns
-
-📈 **December shows MoM recovery** - Q4 seasonal uplift; plan campaigns to accelerate this trend year-on-year
 
 ---
 
@@ -129,7 +93,10 @@ The purpose of this dashboard is to help business users and decision-makers:
 📦 ecommerce-sales-customer-behavior-dashboard
  ┣ 📂 data
  ┃ ┗ 📄 ecommerce_customer_behavior_dataset.csv
- ┣ 🖼️ dashboard_overview.png
+ ┣ 📂 screenshots
+ ┃ ┗ 🖼️ page1_sales_overview.png
+ ┃ ┗ 🖼️ page2_customer_behavior.png
+ ┃ ┗ 🖼️ page3_delivery_operations.png
  ┣ 📄 ECommerce_Dashboard.pbix
  ┗ 📄 README.md
 ```
@@ -141,10 +108,9 @@ The purpose of this dashboard is to help business users and decision-makers:
 | Skill | Description |
 |---|---|
 | **Business Intelligence** | Translating raw transaction data into actionable business insights |
-| **Dashboard Design** | Single-page structured layout with consistent theme |
-| **DAX Calculations** | 15+ custom measures for KPIs, MoM growth, and customer segmentation |
+| **Dashboard Design** | 3-pages structured layout with consistent theme |
+| **DAX Calculations** | 20+ custom measures for KPIs, MoM growth, and customer segmentation |
 | **Time Intelligence** | MoM growth indicators for sales, orders, and units sold |
-| **Calculated Columns** | Age group, delivery zone, discount flag, and session group classification |
 | **Field Parameters** | Single toggle dynamically controlling 3 linked visuals simultaneously |
 | **Power Query** | Data type fixing, column renaming, and transformation |
 | **Scatter Plot Analysis** | Delivery time vs customer rating correlation with trend line |
